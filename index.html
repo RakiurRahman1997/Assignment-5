@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Emergency Hotline</title>
+
+        <link rel="shortcut icon" href="assets/bangladesh-flag-icon.png" type="image/x-icon"/>
+
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+        <!-- Daisy UI CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="styles/style.css"/>
+    </head>
+
+    <body class="bg-[#f5fff6] hind-madurai">
+        <header class="mb-12">
+            <nav class="flex flex-col md:flex-row md:justify-between items-center py-4 px-4 md:px-14 bg-white">
+                <div class="left-nav flex justify-center items-center gap-3 md:gap-5">
+                    <img class="h-[50px] w-[50px]" src="assets/logo.png" alt="logo"/>
+                    <h2 class="font-[900] text-xl text-[#006747]">Emergency <br class="md:block hidden">Service<h2>
+                </div>
+
+                <div class="right-nav flex justify-center items-center text-center gap-3 md:gap-10 mt-4 md:mt-0">
+                    <div class="flex items-center gap-3 bg-[#41ff6b1a] py-2 px-5 rounded-3xl">
+                        <p class="font-bold text-xl" id="heart-count">0</p>
+                        <img class="h-[22px] w-[22px]" src="assets/heart.png" alt="heart"/>
+                    </div>
+
+                    <div class="flex items-center gap-3 bg-[#41ff6b1a] py-2 px-5 rounded-3xl">
+                        <p class="font-bold text-xl" id="coin">100</p>
+                        <img class="h-[22px] w-[22px]" src="assets/coin.png" alt="coin"/>
+                    </div>
+
+                    <div class="bg-[#00A63E] text-white py-2 px-5 rounded-3xl">
+                        <p class="font-bold text-xl">
+                            <span id="copy-show">0</span>copy
+                        </p>
+                    </div>
+                </div>
+            </nav>
+            
