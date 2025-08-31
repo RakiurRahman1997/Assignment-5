@@ -1,0 +1,19 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+.hind-madurai {
+    font-family: "Hind Madurai", sans-serif;
+}
+
+@media (min-width: 1024px) and (max-width: 1249px) {
+    .medium-lg {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.red {
+    color: #ef4444; 
+    transform: scale(1.25); 
+}
